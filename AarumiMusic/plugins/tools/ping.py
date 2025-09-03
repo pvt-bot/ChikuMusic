@@ -18,6 +18,7 @@ async def ping_com(client, message: Message, _):
     response = await message.reply_photo(
         photo=PING_IMG_URL,
         caption=_["ping_1"].format(app.mention),
+                has_spoiler=True
     )
     pytgping = await Aarumi.ping()
     UP, CPU, RAM, DISK = await bot_sys_stats()
@@ -26,3 +27,4 @@ async def ping_com(client, message: Message, _):
         _["ping_2"].format(resp, app.mention, UP, RAM, CPU, DISK, pytgping),
         reply_markup=supp_markup(_),
     )
+
