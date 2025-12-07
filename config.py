@@ -8,7 +8,7 @@ load_dotenv()
 
 API_URL = getenv("API_URL", 'https://pytdbotapi.thequickearn.xyz') #youtube song url
 VIDEO_API_URL = getenv("VIDEO_API_URL", 'https://api.video.thequickearn.xyz')
-API_KEY = getenv("API_KEY", "NxGBNexGenBotsc5b366") 
+API_KEY = getenv("API_KEY", "NxGBNexGenBots254c6b") 
 
 API_ID = int(getenv("API_ID", ""))
 
