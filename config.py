@@ -25,7 +25,7 @@ LOGGER_ID = int(getenv("LOGGER_ID", ""))
 
 OWNER_ID = int(getenv("OWNER_ID", "7905552682"))
 
-BOT_USERNAME = getenv("BOT_USERNAME" , "AarumiXMusic_bot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "")
 
 COMMAND_HANDLER = getenv("COMMAND_HANDLER", "! / .").split()
 
@@ -35,15 +35,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/itsAarumi/AarumiMusic",
+    "https://github.com/lajabajwkjsaiajajahjwkdhdywhjwjsjsgs/Mc",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", ""
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/AarumiBots")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/AarumiChat")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Iamistkhar")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+xfr6-ZOTaZVmODU1")
 
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", "True")
